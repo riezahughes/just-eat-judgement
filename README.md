@@ -1,19 +1,15 @@
 # Ju-dg-st Eat
 
-An API to help stop you ordering shit from discord. For now this will just be run via a chrome extension that checks the page that you're on. Mainly because the cunts won't give a proper api that isn't locked down behind being a resturaunt, basically.
+A webapp and API to help stop you ordering shit from discord. For now this will just be run via a chrome extension that checks the page that you're on. Mainly because the cunts won't give a proper api that isn't locked down behind being a resturaunt, basically.
 
-For now the flow will be
+Basically: Sign up on the webapp, put in details the api needs on your account, and use the browser extension. Any time you finish an order on just eat it'll see you're at the checkout complete section, pull the details it needs from the DOM and pass these along to the api to do it's thing and post to discord. Simple
 
-### The Chrome App will:
+### But Why Though?
 
-- require a discord incoming webhook
-- see you're on a confirmation page of Just Eat
-- take the resturaunt name and how much you spent and send it to the API along with your webhook
+... why not?
 
-### The API will:
+The api may store some demographics at some point. Maybe graphs to show the dates on the webapp, how much you've spent over x etc. Just silly little things.
 
-- Take the details and send out a simple message explaining that you're a fucking dishonor on your family. And your cow.
+### BUT REALLY. WHY THOUGH???
 
-### Optional:
-
-- maybe subtle popups saying "Hey. HEY. I see you there"
+Because it's a dumb, fun learning experience.
